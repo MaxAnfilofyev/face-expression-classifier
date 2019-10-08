@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://onedrive.live.com/download?cid=3A76FC387C092355&resid=3A76FC387C092355%217110&authkey=AHkbKCdYrQ8eEDY'
+export_file_url = 'https://www.dropbox.com/s/khlrsj8iyr27vpr/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 classes = ['normal','happy', 'sad_angry_disgusted', 'surprised_fearful']
 path = Path(__file__).parent
