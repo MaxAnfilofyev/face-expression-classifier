@@ -12,6 +12,7 @@ export_file_url = 'https://www.dropbox.com/s/khlrsj8iyr27vpr/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 classes = ['normal','happy', 'sad_angry_disgusted', 'surprised_fearful']
 path = Path(__file__).parent
+path = path/'models'
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
